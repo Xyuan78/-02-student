@@ -95,7 +95,7 @@ public class StudentMyFace {
 
     //3.修改学生信息
     private static void updateStudent() {
-        System.out.println("修改学生信息（成绩不修改请输入0）");
+        System.out.println("修改学生信息（成绩不修改请输入-1）");
         String id = readString("请输入要修改的学号：");
         double javaScore = readDouble("请输入Java成绩：");
         double vueScore = readDouble("请输入Vue成绩：");

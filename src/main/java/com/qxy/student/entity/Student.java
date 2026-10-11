@@ -45,14 +45,14 @@ public class Student implements Serializable {
     //打印一个学生的信息
     public void showInfo() {
         System.out.println("----------------------------------------");
-        System.out.print("序号：" + index);
-        System.out.print("学号：" + id);
-        System.out.print("姓名：" + name);
-        System.out.print("班级编号：" + classId);
-        System.out.print("Java成绩：" + javaScore);
-        System.out.print("Vue成绩：" + vueScore);
-        System.out.print("HTML成绩：" + htmlScore);
-        System.out.println("总分：" + totalScore);
+        System.out.print("序号：" + index + "\t");
+        System.out.print("学号：" + id + "\t");
+        System.out.print("姓名：" + name + "\t");
+        System.out.print("班级编号： " + classId + "\t");
+        System.out.print("Java成绩：" + javaScore + "\t");
+        System.out.print("Vue成绩：" + vueScore + "\t");
+        System.out.print("HTML成绩：" + htmlScore + "\t");
+        System.out.println("总分：" + totalScore + "\t");
     }
 
 }
